@@ -1,15 +1,21 @@
 {{ define "main" }}
+  <header>
+    <div class="head">
+        <img class="head__image" src="{{ .Site.BaseURL }}images/luma_landing.png" alt="Background Image">
+        <div class="head__info">
+          <h1>Luma</h1>
+          <h2><span>Lightweight, <strong>Flex</strong>ible</span></h2>
+          <div class="head__buttons">
+            <a class="button is-outline is-doc">Get Started</a>
+            <a class="button is-outline is-doc is-right">Github</a>
+          </div>
+        </div>
+    </div>    
+  </header>
     <main aria-role="main">
-      <header class="homepage-header">
-        <h1>{{.Title}}</h1>
-        {{ with .Params.subtitle }}
-        <span class="subtitle">{{.}}</span>
-        {{ end }}
-      </header>
-      <div class="homepage-content">
-        {{.Content}}
-      </div>
-      <div>
+        {{ partial "navigation.html" . }}
+      <div class="container">
+        {{ .Content }}
       </div>
     </main>
 {{ end }}

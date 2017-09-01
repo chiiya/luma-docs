@@ -1,0 +1,15 @@
+.button {
+  &.is-doc {
+    border-color: $color-light;
+    border-radius: 0;
+    color: $color-light;
+    font-weight: normal;
+    width: 115px;
+
+    &:hover {
+      background-color: #fffbcb;
+      border-color: #fffbcb;
+      color: #8f6553;
+    }
+  }
+}
