@@ -3,7 +3,7 @@
   <meta charset="utf-8">
   <meta name="robots" content="all,follow">
   <meta name="googlebot" content="index,follow,snippet,archive">
-  <meta name="viewport" content="width=device-width, initial-scale=1">
+  <meta name="viewport" content="width=device-width, initial-scale=1, shrink-to-fit=no">
   <meta name="author" content="{{ .Site.Author.name }}" />
   {{ if .Keywords }}
   <meta name="keywords" content="{{ delimit .Keywords ", " }}">
@@ -16,11 +16,10 @@
 
   <!-- Stylesheets -->
   <link href="https://fonts.googleapis.com/css?family=Josefin+Sans:300,400,600i" rel="stylesheet">
-  <link href="https://fonts.googleapis.com/css?family=Raleway:300,400,600" rel="stylesheet">
-  <link href="https://fonts.googleapis.com/css?family=Cormorant+Garamond:400" rel="stylesheet">
+  <link href="https://fonts.googleapis.com/css?family=Source+Sans+Pro:300,400,600" rel="stylesheet">
   <link rel="stylesheet" href="http://cdn.materialdesignicons.com/1.8.36/css/materialdesignicons.min.css">
-  <link href="{{ .Site.BaseURL }}css/luma.min.css" rel="stylesheet">
-  <link href="{{ .Site.BaseURL }}css/luma-docs.min.css" rel="stylesheet">
+  <link href="/css/luma.min.css" rel="stylesheet">
+  <link href="/css/luma-docs.min.css" rel="stylesheet">
 
   <!-- Favicon and Apple Touch Icons-->
   <link rel="shortcut icon" href="{{ .Site.BaseURL }}img/favicon.ico" type="image/x-icon" />

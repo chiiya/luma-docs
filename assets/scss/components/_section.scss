@@ -1,0 +1,17 @@
+section {
+  padding: 40px 0;
+
+  h1,
+  h2,
+  h3,
+  h4,
+  h5,
+  h6 {
+    color: #ec556c;
+    font-weight: bold;
+  }
+
+  &.blue {
+    background-color: #f6f9fd;
+  }
+}

@@ -1,7 +1,7 @@
 {{ define "main" }}
   <header>
     <div class="head">
-        <img class="head__image" src="{{ .Site.BaseURL }}images/luma_landing.png" alt="Background Image">
+        <img class="head__image" src="/images/luma_landing.png" alt="Background Image">
         <div class="head__info">
           <h1>Luma</h1>
           <h2><span>Lightweight, <strong>Flex</strong>ible</span></h2>
@@ -12,10 +12,7 @@
         </div>
     </div>    
   </header>
-    <main aria-role="main">
-        {{ partial "navigation.html" . }}
-      <div class="container">
-        {{ .Content }}
-      </div>
-    </main>
+  <main aria-role="main" class="home">
+    {{ .Content }}
+  </main>
 {{ end }}
