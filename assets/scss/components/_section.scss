@@ -7,11 +7,11 @@ section {
   h4,
   h5,
   h6 {
-    color: #ec556c;
+    color: $color-primary;
     font-weight: bold;
   }
 
   &.blue {
-    background-color: #f6f9fd;
+    background-color: $color-blue;;
   }
 }

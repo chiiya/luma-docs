@@ -6,6 +6,11 @@ body {
   background-color: #fdfcfb;
 }
 
+.row .column {
+  padding-top: 0;
+  padding-bottom: 0;
+}
+
 .container {
-  max-width: 900px;
+  max-width: 1080px;
 }

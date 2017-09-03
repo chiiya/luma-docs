@@ -10,7 +10,7 @@ No styles or components you will never use, no unnecessary weight. Luma's size i
 Tired of ugly looking forms? Luma comes with a set of beautifully styled components so that your project looks good _from the very beginning_.
     {{% /column %}}
     {{< column class="is-4" >}}
-      {{< image src="/images/tablet.png" >}}
+      {{< image src="/images/leafs.png" >}}
     {{< /column >}}  
   {{< /row >}}
 {{< /section >}}
@@ -24,7 +24,7 @@ Luma was written in SCSS and with easy customization in mind. Every component ca
 Read more about it in the [documentation](#).
     {{% /column %}}
     {{< column class="is-4" >}}
-      {{< image src="images/box.svg" >}}
+      {{< image src="images/box.png" >}}
     {{< /column >}}
   {{< /row >}}
 {{< /section >}}

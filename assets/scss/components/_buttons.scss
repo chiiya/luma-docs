@@ -11,5 +11,14 @@
       border-color: #fffbcb;
       color: #8f6553;
     }
+
+    &:focus {
+      border-color: #fbe9ad;
+    }
+
+    &:active {
+      border-color: #fffbcb;
+      color: #8f6553;
+    }
   }
 }
