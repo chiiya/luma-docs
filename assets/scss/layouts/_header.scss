@@ -13,6 +13,8 @@
   }
 
   @include tablet {
-    height: 600px;
+    &:not(.header--small) {
+      height: 600px;
+    }
   }
 }
