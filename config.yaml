@@ -4,5 +4,7 @@ title: "Luma - Lightweight, Flexible"
 languageCode: "en-us"
 author:
   name: "Elisha Witte"
-
+taxonomies:
+  site: "sites"
+  version: "versions"
 ---

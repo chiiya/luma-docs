@@ -1,24 +1,25 @@
 .button {
   &.is-doc {
     border-color: $color-light;
-    border-radius: 0;
+    border-radius: 3.2rem;
     color: $color-light;
     font-weight: normal;
     width: 115px;
 
     &:hover {
-      background-color: #fffbcb;
-      border-color: #fffbcb;
-      color: #8f6553;
+      background-color: $color-button-doc;
+      border-color: $color-button-doc;
+      color: $color-button-doc-accent;
     }
 
     &:focus {
-      border-color: #fbe9ad;
+      border-color: $color-button-doc-focus;
+      border-width: 2px;
     }
 
     &:active {
-      border-color: #fffbcb;
-      color: #8f6553;
+      border-color: $color-button-doc;
+      color: $color-button-doc-accent;
     }
   }
 }

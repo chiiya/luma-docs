@@ -14,13 +14,14 @@ footer {
   }
 
   p {
-    color: #aeaeae;
+    color: $color-text-footer;
     vertical-align: middle;
 
     img {
       display: inline-block;
-      height: 20px;
-      margin-right: 5px;
+      height: 15px;
+      margin-bottom: 1px;
+      margin-right: 3px;
       vertical-align: middle;
       width: auto;
     }

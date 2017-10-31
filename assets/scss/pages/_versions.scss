@@ -1,0 +1,24 @@
+.version {
+  padding: 20px 0;
+
+  article {
+    margin-top: 15px;
+  }
+
+  &__head {
+    align-items: center;
+    border-bottom: 1px solid $color-border;
+    display: flex;
+    padding-bottom: 10px;
+
+    h2 {
+      color: $color-grey;
+      font-family: $font-stack;
+    }
+
+    a {
+      margin-left: auto;
+    }
+    
+  }
+}

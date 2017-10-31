@@ -1,14 +1,25 @@
-html, body {
+html,
+body {
   height: 100%;
 }
 
 body {
-  background-color: #fdfcfb;
+  background-color: $color-body-bg;
+  display: flex;
+  flex-direction: column;
+}
+
+header {
+  flex: 0 0 auto;
+} 
+
+main {
+  flex: 1 0 auto;
 }
 
 .row .column {
-  padding-top: 0;
   padding-bottom: 0;
+  padding-top: 0;
 }
 
 .container {

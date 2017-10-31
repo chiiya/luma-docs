@@ -1,0 +1,15 @@
+{{ define "main" }}
+<header class="header header--small">  
+</header>
+{{ partial "navigation" }}
+<main aria-role="main" class="docs">
+  <div class="container">
+    <aside>
+
+    </aside>
+    <article>
+        {{ .Content }}
+    </article>
+  </div>
+</main>
+{{ end }}

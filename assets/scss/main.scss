@@ -1,3 +1,5 @@
+// Luma
+@import '../vendor/luma/src/scss/main';
 
 @import 'abstracts/variables';
 
@@ -7,5 +9,10 @@
 @import 'components/buttons';
 @import 'components/section';
 
-@import 'layouts/home';
+@import 'pages/home';
+@import 'pages/versions';
+@import 'pages/docs';
+
+@import 'layouts/header';
 @import 'layouts/footer';
+@import 'layouts/nav';
