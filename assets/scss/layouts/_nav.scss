@@ -1,4 +1,4 @@
-nav {
+nav:not(#TableOfContents) {
   border-bottom: 1px solid $color-border;
   padding: 20px 0;
 
