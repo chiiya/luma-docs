@@ -64,6 +64,7 @@ it will be positioned closer to the heading, acting as a subtitle.
 
 ## Inline Text Elements
 
+
 ##### Marked Text / Highlight
 
 Use the `mark` element or class to <mark>highlight</mark> text with a marker pen effect.
@@ -114,6 +115,7 @@ Feel free to use any of the other available inline elements:
 <small>Small</small>
 ```
 
+
 ##### Helpers
 
 There are a number of helper classes available that you can use:
@@ -159,6 +161,7 @@ For quoting blocks of content from another source within your document.
 {{% infoblock class="customize" %}}
 `$color-blockquote-border` Defines the Blockquote border color.
 {{% /infoblock %}}
+
 
 ##### Custom Selection
 
