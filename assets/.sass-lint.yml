@@ -12,4 +12,4 @@ rules:
     - max-depth: 3
   class-name-format:
     - 1
-    - convention: strictbem
+    - convention: hyphenatedbem

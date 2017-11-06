@@ -11,15 +11,17 @@ body {
 
 header {
   flex: 0 0 auto;
-} 
+}
 
 main {
   flex: 1 0 auto;
 }
 
-.row .column {
-  padding-bottom: 0;
-  padding-top: 0;
+.row {
+  .column {
+    padding-bottom: 0;
+    padding-top: 0;
+  }
 }
 
 .container {

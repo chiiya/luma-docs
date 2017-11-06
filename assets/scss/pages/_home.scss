@@ -87,15 +87,17 @@
 }
 
 section {
-  &:nth-of-type(1) img {
-    height: 500px;
-    position: absolute;
-    top: -11px;
-    transform: translateX(50px);
+  :nth-of-type(1) {
+    img {
+      height: 500px;
+      position: absolute;
+      top: -11px;
+      transform: translateX(50px);
 
-    @media screen and (max-width: 768px) {
-      opacity: .2;
-      right: 60px;
+      @media screen and (max-width: 768px) {
+        opacity: .2;
+        right: 60px;
+      }
     }
   }
 
@@ -114,13 +116,13 @@ section {
   position: relative;
 
   h2 {
-    margin: 2rem 0;
-    text-align: center;
-
     @include tablet {
       margin: 0 0 .5rem;
       text-align: left;
     }
+
+    margin: 2rem 0;
+    text-align: center;
   }
 
   .submit {

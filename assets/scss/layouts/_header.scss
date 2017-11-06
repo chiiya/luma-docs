@@ -1,6 +1,6 @@
 .header {
   align-items: center;
-  background: url('/images/background_overlay.png') center/cover no-repeat, linear-gradient(135deg, $gradient-from 10%, $gradient-to 100%);
+  background: url('/images/background_overlay.png') center / cover no-repeat, linear-gradient(135deg, $gradient-from 10%, $gradient-to 100%);
   display: flex;
   height: 475px;
   justify-content: center;
@@ -8,7 +8,7 @@
   z-index: 2;
 
   &--small {
-    background: linear-gradient(135deg,#f05f57 10%,#f15c8c 100%);
+    background: linear-gradient(135deg, $gradient-from--small 10%, $gradient-to--small 100%);
     height: 20px;
   }
 
