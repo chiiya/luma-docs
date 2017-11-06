@@ -1,7 +1,7 @@
 ---
 title: "Luma - Lightweight, Flexible"
 ---
-{{< section >}}
+{{< section class="section--first" >}}
   {{< row >}}
     {{% column class="is-8" %}}
 ## Lightweight
@@ -14,7 +14,7 @@ Tired of ugly looking forms? Luma comes with a set of beautifully styled compone
     {{< /column >}}  
   {{< /row >}}
 {{< /section >}}
-{{< section class="blue" >}}
+{{< section class="section--second blue" >}}
   {{< row >}}
     {{% column class="is-8" %}}
 ## Modular
