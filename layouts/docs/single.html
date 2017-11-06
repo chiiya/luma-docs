@@ -1,10 +1,10 @@
 {{ define "main" }}
 <header class="header header--small">  
 </header>
-{{ partial "navigation" }}
+{{ partial "navigation" . }}
 <main aria-role="main" class="docs">
   <div class="container">
-    {{ partial "sidebar" }}
+    {{ partial "sidebar" . }}
     <article>
         {{ .Content }}
     </article>
