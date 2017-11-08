@@ -17,9 +17,11 @@
     }
   }
 
-  pre[class*="language-"] {
-    background: $color-bg-code;
-    margin: 0 0 2.5rem 0;
+  pre {
+    &[class*='language-'] {
+      background: $color-bg-code;
+      margin: 0 0 2.5rem;
+    }
   }
 
   #TableOfContents {
@@ -69,16 +71,16 @@
   padding: 15px 10px;
 
   &.is-red {
-    background: linear-gradient(90deg, #ff9a9e, #fdb7a2);
+    background: linear-gradient(90deg, $column-red-from, $column-red-to);
   }
 
   &.is-blue {
-    background: linear-gradient(90deg, #6a85b6, #8eb2ef);
+    background: linear-gradient(90deg, $column-blue-from, $column-blue-to);
   }
 }
 
 .row-example {
-  background-image: linear-gradient(to top, #e6e9f0 0%, #eef1f5 100%);
+  background: linear-gradient(to top, $row-from 0%, $row-to 100%);
   margin-bottom: 10px;
   min-height: 15rem;
 
@@ -91,8 +93,10 @@
   }
 }
 
-.row.has-no-margins {
-  p  {
-    margin: 0;
+.row {
+  &.has-no-margins {
+    p  {
+      margin: 0;
+    }
   }
 }

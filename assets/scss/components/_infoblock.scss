@@ -1,9 +1,14 @@
 .example,
 .customize,
 .configure {
-  padding: .2rem 1rem 1rem 1rem;
   margin-bottom: 2rem;
   margin-top: 2rem;
+  padding: .2rem 1rem 1rem;
+
+  &::before {
+    font-size: 1.2rem;
+    font-weight: 300;
+  }
 }
 
 .customize,
@@ -12,11 +17,11 @@
 }
 
 .example {
-  border: 1px dashed #3273dc;
+  border: 1px dashed $color-info;
 
   &::before {
+    color: $color-info;
     content: 'EXAMPLE';
-    color: #3273dc;
   }
 
   h2,
@@ -26,44 +31,41 @@
 }
 
 .customize {
-  border: 1px solid #62d662;
+  border: 1px solid $color-success;
   border-top-width: 5px;
 
   > p {
     margin: 0;
   }
 
-  p > code:first-child {
-    padding-left: 0;
+  p > code {
+    &:first-child {
+      padding-left: 0;
+    }
   }
 
   &::before {
-    content: 'CUSTOMIZATION OPTIONS';
     color: $color-success;
+    content: 'CUSTOMIZATION OPTIONS';
   }
 }
 
 .configure {
-  border: 1px solid #ffdd57;
+  border: 1px solid $color-warning;
   border-top-width: 5px;
 
   > p {
     margin: 0;
   }
 
-  p > code:first-child {
-    padding-left: 0;
+  p > code {
+    &:first-child {
+      padding-left: 0;
+    }
   }
 
   &::before  {
-    content: 'CONFIGURATION OPTIONS';
     color: $color-warning;
+    content: 'CONFIGURATION OPTIONS';
   }
-}
-
-.customize::before,
-.configure::before,
-.example::before {
-  font-size: 1.2rem;
-  font-weight: 300;
 }
