@@ -64,3 +64,35 @@
     text-transform: uppercase;
   }
 }
+
+.col-example {
+  padding: 15px 10px;
+
+  &.is-red {
+    background: linear-gradient(90deg, #ff9a9e, #fdb7a2);
+  }
+
+  &.is-blue {
+    background: linear-gradient(90deg, #6a85b6, #8eb2ef);
+  }
+}
+
+.row-example {
+  background-image: linear-gradient(to top, #e6e9f0 0%, #eef1f5 100%);
+  margin-bottom: 10px;
+  min-height: 15rem;
+
+  .column {
+    margin-bottom: 0;
+  }
+
+  .col-example {
+    margin: 0;
+  }
+}
+
+.row.has-no-margins {
+  p  {
+    margin: 0;
+  }
+}
