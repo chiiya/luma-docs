@@ -5,11 +5,6 @@ slug: "pagination"
 ---
 
 # Pagination
-{{% alert type="warning" %}}
-This is an extension component, which is not included by default in Luma. If you wish to use it, simply
-uncomment the `// @import 'layouts/Pagination';` line in `main.scss`
-{{% /alert %}}
-
 Luma comes with a pagination component. We use the Bootstrap syntax with custom styling since some frameworks
 (such as Laravel) generate Bootstrap compliant pagination by default.
 
