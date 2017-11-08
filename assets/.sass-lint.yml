@@ -9,7 +9,8 @@ rules:
     - allow-element-with-attribute: true
   nesting-depth:
     - 1
-    - max-depth: 3
+    - max-depth: 4
   class-name-format:
     - 1
     - convention: hyphenatedbem
+  no-ids: 0
