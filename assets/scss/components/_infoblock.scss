@@ -28,6 +28,18 @@
   h3 {
     border: 0;
   }
+
+  &.is-dark {
+    background: $color-example-dark;
+
+    &::before {
+      color: tint($color-info, 20%);
+    }
+
+    > * {
+      margin-top: 10px;
+    }
+  }
 }
 
 .customize {
