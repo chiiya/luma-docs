@@ -142,7 +142,7 @@ They can also be horizontal:
             <div class="card-meta">
                 Drama - Sentimental
             </div>
-            <p>Sora No Woto. Lorem40</p>
+            <p>Sora No Woto. Lorem ipsum dolor sit amet, consectetur adipiscing elit, sed do eiusmod tempor incididunt.</p>
         </div>
         <div class="card-action">
             <a href="https://www.youtube.com/watch?v=DTAYxBIeU14" class="button is-outline is-narrow">Watch Now</a>
@@ -168,7 +168,7 @@ They can also be horizontal:
             <div class="card-meta">
                 Drama - Sentimental
             </div>
-            <p>Sora No Woto. Lorem40</p>
+            <p>Sora No Woto. Lorem ipsum dolor sit amet, consectetur adipiscing elit, sed do eiusmod tempor incididunt.</p>
         </div>
         <div class="card-action">
             <a href="https://www.youtube.com/watch?v=DTAYxBIeU14" class="button is-outline is-narrow">Watch Now</a>
