@@ -14,9 +14,9 @@ const cleanCSS = require('gulp-clean-css');
 const concat = require('gulp-concat');
 
 const paths = {
-  src: './',
-  build: './dist',
-  dist: '../static',
+  src: './assets',
+  build: './assets/dist',
+  dist: './static',
 };
 const config = {
   projectName: 'luma-docs',
