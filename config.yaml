@@ -1,5 +1,5 @@
 ---
-baseURL: "http://luma.dev:1313"
+baseURL: "/"
 title: "Luma - Lightweight, Flexible"
 languageCode: "en-us"
 author:
