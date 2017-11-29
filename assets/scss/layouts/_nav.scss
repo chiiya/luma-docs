@@ -90,4 +90,8 @@
   @include tablet {
     display: none;
   }
+
+  &:focus {
+    outline: 0;
+  }
 }
