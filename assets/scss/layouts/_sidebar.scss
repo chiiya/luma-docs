@@ -1,5 +1,6 @@
 aside {
   border-right: 1px solid $color-border;
+  display: none;
   float: left;
   padding: 40px;
   width: 250px;
@@ -9,7 +10,7 @@ aside {
   }
 
   > ul > li {
-    font-size: 1.4rem;
+    font-size: 1.6rem;
     font-weight: bold;
     padding: 5px 0;
 
@@ -20,7 +21,9 @@ aside {
     a {
       color: $color-primary;
 
-      &:hover {
+      &:hover,
+      &:active,
+      &:focus {
         color: shade($color-primary, 20%);
       }
     }
@@ -29,9 +32,14 @@ aside {
       margin: 5px 0 0 15px;
 
       li {
-        font-size: 1.4rem;
+        font-size: 1.5rem;
         list-style: none;
+        font-weight: 300;
       }
     }
+  }
+
+  @include tablet {
+    display: block;
   }
 }

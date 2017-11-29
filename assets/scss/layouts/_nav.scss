@@ -1,5 +1,6 @@
 .navigation {
   border-bottom: 1px solid $color-border;
+  display: none;
   padding: 20px 0;
 
   ul {
@@ -47,5 +48,46 @@
       font-weight: 600;
     }
 
+  }
+
+  @include tablet {
+    display: block;
+  }
+}
+
+.nav-mobile {
+  ul {
+    padding-left: 15px;
+  }
+
+  h4 {
+    font-size: 1.5rem;
+  }
+
+  section {
+    padding: 0 0 20px 0;
+  }
+}
+
+.menu__main {
+  ul  {
+    padding-left: 0;
+
+    li {
+      font-weight: bold;
+    }
+  }
+}
+
+.slideout-panel {
+  background-color: $color-body-bg;
+}
+
+.hamburger {
+  padding: 0;
+  margin-top: 20px;
+
+  @include tablet {
+    display: none;
   }
 }

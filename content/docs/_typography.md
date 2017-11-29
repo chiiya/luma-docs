@@ -139,7 +139,7 @@ There are a number of helper classes available that you can use:
 <p class="text-lowercase">All letters are transformed to lowercase</p>
 <p class="text-uppercase">All letters are transformed to uppercase</p>
 <p class="text-capitalize">First letter of all words will be capitalized</p>
-<p class="text-fade">Decreased size and opacity. As an example see the sans-serif Example above.</p>
+<p class="text-fade">Decreased size and opacity.</p>
 ```
 
 ##### Blockquote

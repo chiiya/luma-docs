@@ -2,9 +2,14 @@
 <header class="header header--small">  
 </header>
 {{ partial "navigation" . }}
-<main aria-role="main" class="docs">
+<main aria-role="main" class="docs" id="panel">
   <div class="container">
     {{ partial "sidebar" . }}
+    <button class="hamburger hamburger--spin" type="button">
+      <span class="hamburger-box">
+        <span class="hamburger-inner"></span>
+      </span>
+    </button>
     <article>
       {{ .TableOfContents }}
       {{ .Content }}
