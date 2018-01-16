@@ -31,9 +31,5 @@
     "sass-lint": "^1.10.2",
     "vinyl-buffer": "^1.0.0",
     "vinyl-source-stream": "^1.1.0"
-  },
-  "dependencies": {
-    "hamburgers": "^0.9.1",
-    "slideout": "^1.0.1"
   }
 }
