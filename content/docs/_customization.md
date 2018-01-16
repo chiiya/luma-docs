@@ -19,7 +19,7 @@ $color-light: #fff;
 
 Your `main.scss` or similar where you import your files should now look somewhat like this:
 
-```
+```scss
 @import 'abstracts/variables';
 @import 'vendor/luma';
 ```
