@@ -4,7 +4,6 @@ link: "http://sumi.re"
 image: "/images/favon.png"
 title: "Sumire"
 date: 2017-09-06T09:40:39+02:00
-type: "site"
 sites: ["show"]
 ---
 

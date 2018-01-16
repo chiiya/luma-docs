@@ -1,0 +1,28 @@
+{{ define "main" }}
+<header class="header header--small">
+</header>
+{{ partial "navigation" }}
+<main aria-role="main" class="version">
+  <div class="container">
+    <a href="/" class="highlight"><i class="mdi mdi-arrow-left"></i>Back</a>
+    <div class="row">
+      <div class="column is-6">
+        <form name="contact" netlify>
+          <p>
+            <label>Name: <input type="text" name="name" placeholder="The name of your website"></label>
+          </p>
+          <p>
+            <label>Link: <input type="text" name="link" placeholder="Link to your site"></label>
+          </p>
+          <p>
+            <label>Description: <textarea name="description" placeholder="Please include a short description (max 200 characters)"></textarea></label>
+          </p>
+          <p>
+            <button type="submit" class="button is-primary">Send</button>
+          </p>
+        </form>
+      </div>
+    </div>
+  </div>
+</main>
+{{ end }}

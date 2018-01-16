@@ -1,0 +1,22 @@
+{{ define "main" }}
+<header class="header header--small">
+</header>
+{{ partial "navigation" }}
+<main aria-role="main" class="version">
+  <div class="container">
+    <a href="/" class="highlight"><i class="mdi mdi-arrow-left"></i>Back</a>
+    <article>
+      <div class="version__head">
+        <h2>Sites built with Luma</h2>
+        <a href="#" class="button is-primary has-depth">Submit your own site!</a>
+      </div>
+      <div class="row is-multiline">
+        {{ range .Paginator.Pages }}
+            {{ partial "site-summary.html" . }}
+        {{ end }}
+      </div>
+
+    </article>
+  </div>
+</main>
+{{ end }}
