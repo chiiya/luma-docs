@@ -55,7 +55,7 @@
   }
 }
 
-.nav-mobile {
+.nav.is-responsive {
   ul {
     padding-left: 15px;
   }
@@ -76,22 +76,5 @@
     li {
       font-weight: bold;
     }
-  }
-}
-
-.slideout-panel {
-  background-color: $color-body-bg;
-}
-
-.hamburger {
-  padding: 0;
-  margin-top: 20px;
-
-  @include tablet {
-    display: none;
-  }
-
-  &:focus {
-    outline: 0;
   }
 }

@@ -1,4 +1,10 @@
 .docs {
+  padding-top: 30px;
+
+  @include tablet {
+    padding-top: 0;
+  }
+
   article {
     padding: 40px 0 50px;
 

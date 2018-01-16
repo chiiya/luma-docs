@@ -18,7 +18,8 @@ Tired of ugly looking forms? Luma comes with a set of beautifully styled compone
   {{< row >}}
     {{% column class="is-8" %}}
 ## Modular
-On top of the default framework Luma comes with a bunch of additional components that you can include in your project. Modals, pagination indicators, loading spinner, you name it. Most components you will use in your projects are already there and can be included  by simply commenting out a line.
+Everything is structured into components. Don't need pagination or alerts on your site? Just comment out one line.
+On top of the default framework Luma comes with a bunch of additional components that you can include in your project (for now just the navigation). Most components you will use in your projects are already there and can be included  by simply commenting out a line.
 ## Customizable
 Luma was written in SCSS and with easy customization in mind. Every component can be freely customized with the provided variables. The most relevant files for customization are `src/utilities/_config.scss` and `src/utilities/_variables.scss`. Here you can easily switch out color values (such as the `$color-primary`) and customize other configuration values.
 Read more about it in the [documentation]({{< relref "docs/_installation.md" >}}).
