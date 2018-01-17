@@ -5,7 +5,7 @@ title: "Luma - Lightweight, Flexible"
   {{< row >}}
     {{% column class="is-8" %}}
 ## Lightweight
-No styles or components you will never use, no unnecessary weight. Luma's size is merely __6kb gzipped__. No additional dependencies. There is no unwanted bloat that comes with the larger frameworks. By default, Luma only ships with the most used components.
+No styles or components you will never use, no unnecessary weight. Luma's size is less than __8kb gzipped__. No additional dependencies. There is no unwanted bloat that comes with the larger frameworks. By default, Luma only ships with the most used components.
 ## Opinionated
 Tired of ugly looking forms? Luma comes with a set of beautifully styled components so that your project looks good _from the very beginning_.
     {{% /column %}}
