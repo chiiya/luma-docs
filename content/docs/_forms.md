@@ -21,7 +21,7 @@ Use `fieldset` or a div with class `field` to group input elements:
         <textarea id="message" name="message" placeholder="Send me a message"></textarea>
     </div>
     <div class="field">
-        <input type="checkbox" id="terms" name="terms">
+        <input type="checkbox" class="checkbox" id="terms" name="terms">
         <label for="terms">I accept all the evil terms and conditions.</label>
     </div>
 
@@ -40,7 +40,7 @@ Use `fieldset` or a div with class `field` to group input elements:
         <textarea id="message" name="message" placeholder="Send me a message"></textarea>
     </div>
     <div class="field">
-        <input type="checkbox" id="terms" name="terms">
+        <input type="checkbox" class="checkbox" id="terms" name="terms">
         <label for="terms">I accept all the evil terms and conditions.</label>
     </div>
 
@@ -67,7 +67,7 @@ You can make forms horizontal by using our grid system:
         </div>
     </div>
     <div class="field">
-        <input type="checkbox" id="terms2" name="terms">
+        <input type="checkbox" class="checkbox" id="terms2" name="terms">
         <label for="terms2">I accept all the evil terms and conditions.</label>
     </div>
 
@@ -90,7 +90,7 @@ You can make forms horizontal by using our grid system:
         </div>
     </div>
     <div class="field">
-        <input type="checkbox" id="terms" name="terms">
+        <input type="checkbox" class="checkbox" id="terms" name="terms">
         <label for="terms">I accept all the evil terms and conditions.</label>
     </div>
 
@@ -107,11 +107,11 @@ Add the `is-centered` class to a `field` to make all elements inside vertically 
             <input type="text" id="name3" placeholder="Order No.">
         </div>
         <div class="column is-2">
-            <input type="checkbox" id="terms3">
+            <input type="checkbox" class="checkbox" id="terms3">
             <label for="terms3">Term 0</label>
         </div>
         <div class="column is-2">
-            <input type="checkbox" id="terms4">
+            <input type="checkbox" class="checkbox" id="terms4">
             <label for="terms4">Term 1</label>
         </div>
     </div>
@@ -126,11 +126,11 @@ Add the `is-centered` class to a `field` to make all elements inside vertically 
             <input type="text" id="name" placeholder="Order No.">
         </div>
         <div class="column is-2">
-            <input type="checkbox" id="terms3">
+            <input type="checkbox" class="checkbox" id="terms3">
             <label for="terms-zero">Term 0</label>
         </div>
         <div class="column is-2">
-            <input type="checkbox" id="terms4">
+            <input type="checkbox" class="checkbox" id="terms4">
             <label for="terms-one">Term 1</label>
         </div>
     </div>
@@ -176,59 +176,59 @@ to be initialized using the aforementioned API call.
 ```
 
 ### Checkboxes
-Luma uses custom CSS checkboxes. Check them out:
+Luma uses custom CSS checkboxes (applied when using the `checkbox` class). Check them out:
 
 {{% infoblock class="example" %}}
 <div class="field">
-    <input type="checkbox" id="check" name="check">
+    <input type="checkbox" class="checkbox" id="check" name="check">
     <label for="check">Check 123</label>
 </div>
 <div class="field">
-    <input type="checkbox" id="check-disabled" name="check-disabled" disabled>
+    <input type="checkbox" class="checkbox" id="check-disabled" name="check-disabled" disabled>
     <label for="check-disabled">Disabled Checkbox</label>
 </div>
 {{% /infoblock %}}
 
 ```html
 <div class="field">
-    <input type="checkbox" id="check" name="check">
+    <input type="checkbox" class="checkbox" id="check" name="check">
     <label for="check">Check 123</label>
 </div>
 <div class="field">
-    <input type="checkbox" id="check-disabled" name="check-disabled" disabled>
+    <input type="checkbox" class="checkbox" id="check-disabled" name="check-disabled" disabled>
     <label for="check-disabled">Disabled Checkbox</label>
 </div>
 ```
 
 ### Radios
-Luma also uses custom CSS radios:
+Luma also uses custom CSS radios (applied when using the `radio` class):
 
 {{% infoblock class="example" %}}
 <div class="field">
-    <input type="radio" id="radio1" name="radios">
+    <input type="radio" class="radio" id="radio1" name="radios">
     <label for="radio1">Option 1</label>
 </div>
 <div class="field">
-    <input type="radio" id="radio2" name="radios">
+    <input type="radio" class="radio" id="radio2" name="radios">
     <label for="radio2">Option 2</label>
 </div>
 <div class="field">
-    <input type="radio" id="radio3" name="radios" disabled>
+    <input type="radio" class="radio" id="radio3" name="radios" disabled>
     <label for="radio3">Disabled Option 3</label>
 </div>
 {{% /infoblock %}}
 
 ```html
 <div class="field">
-    <input type="radio" id="radio1" name="radios">
+    <input type="radio" class="radio" id="radio1" name="radios">
     <label for="radio1">Option 1</label>
 </div>
 <div class="field">
-    <input type="radio" id="radio2" name="radios">
+    <input type="radio" class="radio" id="radio2" name="radios">
     <label for="radio2">Option 2</label>
 </div>
 <div class="field">
-    <input type="radio" id="radio3" name="radios" disabled>
+    <input type="radio" class="radio" id="radio3" name="radios" disabled>
     <label for="radio3">Disabled Option 3</label>
 </div>
 ```
