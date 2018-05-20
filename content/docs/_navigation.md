@@ -149,5 +149,10 @@ top navigation as well as the sidebar navigation into one on mobile.
 </nav>
 ```
 
+### Javascript
+To initialize the responsive navigation, call `luma.nav()`. We've also included a the option to
+open the mobile navigation by swiping in from the left side of the screen (like often the case
+in mobile applications). To initialize this behaviour, call `luma.navSlideOut()`.
+
 
 
