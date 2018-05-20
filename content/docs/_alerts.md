@@ -9,16 +9,16 @@ Use alerts to provide users with contextual feedback. An `is-*` class must be sp
 
 {{% infoblock class="example" %}}
 <div class="alert is-info">
-    Info. Lorem ipsum dolor sit amet, consectetur adipiscing elit lorem ipsum dolor sit amet, consectetur adipiscing elit.
+    <a href="#">Info</a>. Lorem ipsum dolor sit amet, consectetur adipiscing elit lorem ipsum dolor sit amet, consectetur adipiscing elit.
 </div>
 <div class="alert is-success">
-    Success. Lorem ipsum dolor sit amet, consectetur adipiscing elit lorem ipsum dolor sit amet, consectetur adipiscing elit.
+    <a href="#">Success</a>. Lorem ipsum dolor sit amet, consectetur adipiscing elit lorem ipsum dolor sit amet, consectetur adipiscing elit.
 </div>
 <div class="alert is-warning">
-    Warning. Lorem ipsum dolor sit amet, consectetur adipiscing elit lorem ipsum dolor sit amet, consectetur adipiscing elit.
+    <a href="#">Warning</a>. Lorem ipsum dolor sit amet, consectetur adipiscing elit lorem ipsum dolor sit amet, consectetur adipiscing elit.
 </div>
 <div class="alert is-danger">
-    Danger. Lorem ipsum dolor sit amet, consectetur adipiscing elit lorem ipsum dolor sit amet, consectetur adipiscing elit.
+    <a href="#">Danger</a>. Lorem ipsum dolor sit amet, consectetur adipiscing elit lorem ipsum dolor sit amet, consectetur adipiscing elit.
 </div>
 {{% /infoblock %}}
 
