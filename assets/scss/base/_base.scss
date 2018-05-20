@@ -27,3 +27,13 @@ main {
 .container {
   max-width: 1080px;
 }
+
+.nav.is-toggle {
+  .hamburger {
+    height: 17px;
+  }
+
+  img {
+    height: 25px;
+  }
+}
