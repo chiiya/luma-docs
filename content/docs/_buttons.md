@@ -13,8 +13,8 @@ different color variations: `primary`, `info`, `success` and `danger`.
 In addition to the aforementioned color styles, outlined buttons also come with a default light style.
 {{% infoblock class="example" %}}
 <div class="button-group">
-    <a class="button is-outline">Submit</a>
-    <a class="button is-outline is-primary">Primary</a>
+    <button class="button is-outline" disabled>Submit</button>
+    <button class="button is-outline is-primary" disabled>Primary</button>
     <a class="button is-outline is-info">Information</a>
     <a class="button is-outline is-success">Success</a>
     <a class="button is-outline is-danger">Danger</a>

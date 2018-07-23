@@ -104,7 +104,7 @@ gulp.task('scripts', () => {
  * Copy the minified JS file to the documentation folder
  */
 gulp.task('copy-js', ['scripts'], () => {
-  return gulp.src([`${paths.src}/vendor/luma/dist/luma.min.js`, `${paths.src}/vendor/prism.js`, `${paths.build}/${config.projectName}.min.js`])
+  return gulp.src([`${paths.src}/vendor/prism.js`, `${paths.build}/${config.projectName}.min.js`])
     .pipe(concat(`${config.projectName}.min.js`))
     .pipe(gulp.dest(`${paths.dist}/js`));
 });
