@@ -22,7 +22,7 @@ start using Luma without worrying about any of the compilation or bundling. To i
 <!-- Optionally, you can include the javascript at the end of your body -->
 <script src="/js/luma.min.js">
 <!-- Or using CDN -->
-<link rel="stylesheet" href="https://unpkg.com/lumacss/dist/luma.min.js">
+<script src="https://unpkg.com/lumacss/dist/luma.min.js">
 </body>
 ```
 
