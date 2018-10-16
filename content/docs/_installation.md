@@ -8,10 +8,10 @@ aliases:
 
 # Installation
 
-You can install Luma in multiple ways:
+You can install Luma multiple ways:
 
 ## Include compiled files
-The simplest option would be to just include the compiled .css and optionally .js files. This way, you can immediately
+The simplest option would be to just include the compiled .css (and optionally .js) files. This way, you can immediately
 start using Luma without worrying about any of the compilation or bundling. To include Luma on your site:
 
 ```html
